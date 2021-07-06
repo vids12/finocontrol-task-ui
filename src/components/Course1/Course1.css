@@ -1,0 +1,87 @@
+.course1,.course2,.course3{
+    background-color: white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    position: relative;
+    border: 1px solid #9CA3AF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.value{
+    color: #059669;
+    font-weight: 600;
+    font-size:1.25rem;
+    margin-bottom: 1.5rem;
+}
+.heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.course-image{
+    background-color: green;
+    width: 80%;
+    height: 12rem;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    position: relative;
+    top: -2rem;
+    left: 2.25rem;
+}
+.course-badge{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.5rem
+}
+
+.inner-border{
+    border: 2px solid white;
+    height: 10.5rem;
+    width: 90%;
+    position: absolute;
+    left: 0.75rem;
+    bottom: 0.5rem; 
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.course-list li{
+    font-size: 1.5rem;
+    margin: 1rem 2.5rem 0.5rem 2.5rem;
+    padding: 1rem;
+}
+@media (min-width: 1000px) {
+    .course1,.course2,.course3{
+        width: 30%;
+    }
+    .value{
+        font-size:1.25rem;
+    }
+    .heading{
+        font-size: 1.75rem;
+    }
+    .course-image{
+        width: 75%;
+        left: 2.5rem;
+    }
+    .inner-border{
+        left: 0.6rem;
+        bottom: 0.6rem; 
+    }
+}
+
+@media (min-width: 1400px) {
+    .heading{
+        font-size: 2rem;
+    }
+    .course-image{
+        left: 3.2rem;
+    }
+    .inner-border{
+        height: 10rem;
+        width: 90%;
+        left: 0.8rem;
+        bottom: 0.8rem; 
+    }
+}

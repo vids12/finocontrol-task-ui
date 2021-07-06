@@ -1,0 +1,52 @@
+.courses .box{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #E5E5E5;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 1.5rem;
+    z-index: -1;
+}
+.course-heading {
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.75rem;
+  margin-top: 4rem 1rem 0 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #064E3B;
+}
+.courses-list{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 4rem 1.5rem;
+    align-items: stretch;
+}
+
+@media (min-width: 1000px){
+    .courses .box{
+        width: 2rem;
+        height: 2rem;
+        top: 1.3rem ;
+        right: 7.6rem;
+    }
+    .course-heading {
+      font-size: 6rem;
+    }
+    .courses-list{
+        margin: 6rem 1.5rem;
+    }
+}
+@media (min-width: 1400px){
+    .courses .box{
+        top: 1.5rem ;
+        right: 22.5%;
+    }
+    .courses-list{
+        margin: 6rem 3rem;
+    }    
+}
