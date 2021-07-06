@@ -1,0 +1,161 @@
+.web{
+    background-color: var(--emerald-200);
+    margin: 4rem 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    text-align: center;
+}
+.web-image{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 1.5rem;
+    background-color: var(--white);
+    margin: 4rem 4rem;
+    position: relative;
+    top: 2rem;
+}
+.web-image-inner-border{
+    border: 2px solid var(--white);
+    height: 14.8rem; 
+    width: 15rem;
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.5rem;
+    top: 0.5rem;
+    right: 0.5rem; 
+    border-radius: 1.5rem;
+}
+.webinar-heading{
+    letter-spacing: 0.1rem;
+    font-size: 1.25rem;
+    margin: 0rem;
+    font-weight: 700;
+}
+.host{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.fa-linkedin-square{
+    color: var(--linkedin-color);
+}
+.detail{
+    list-style: none;
+    display: flex;
+}
+.detail li{
+    margin: 2rem 1rem;
+    font-size: 0.8rem;
+    color: var(--green-700);
+    font-weight: bold;    
+}
+.discounted-price{
+    font-size: 3rem;
+}
+.original-price{
+    text-decoration: line-through;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1000px){
+    .web{
+        margin: 4rem 2rem;
+        display: flex;
+    }
+    .web-box{
+        width: 4rem; 
+        height: 4rem;
+        background-color: var(--primary-color);
+        border-top-right-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+        position: absolute;
+        left: -2rem;
+        top: -5rem;
+    }
+    .web-image{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 1.5rem;
+        margin: 1rem 1rem;
+        top: 0;
+    }
+    .web-image-inner-border{
+        height: 11rem; 
+        width: 10rem;
+        left: 0.5rem;
+        bottom: 0.5rem;
+        top: 0.5rem;
+        right: 0.5rem; 
+    }
+    .web-middle-section{
+        margin: 2rem;
+    }
+    .webinar-heading{
+        margin: 1rem;
+    }
+    .host{
+        margin-top: 0rem;
+    }
+    .detail li{
+        margin: 0 2rem 2rem 2rem;  
+    }
+    .price-btn-div{
+        margin: 4rem 1rem 2rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .price-div{
+        position: relative;
+        left: 2rem;
+    }
+    .discounted-price{
+        font-size: 2rem;
+    }
+    .original-price{
+        font-size: 1rem;
+        margin-left: 3rem;
+    }
+}
+@media (min-width: 1400px){
+    .web{
+        margin: 4rem;
+    }
+    .web-box{
+        left: -3rem;
+        top: -8rem;
+    }
+    .web-image{
+        width: 10rem;
+        height: 10rem;
+        margin: 1rem 2rem;
+    }
+    .web-image-inner-border{
+        height: 9rem; 
+        width: 8.5rem;
+        left:0.4rem;
+        bottom: 0.5rem;
+    }
+    .webinar-heading{
+        font-size: 1.5rem;
+    }
+    .host{
+        font-size: 1.25rem;
+    }
+    .detail li{
+        font-size: 1.2rem;  
+    }
+    .price-btn-div{
+        margin: 4rem 1rem 2rem 10rem;
+    }
+    .price-div{
+        left: 3rem;
+    }
+    .discounted-price{
+        font-size: 2rem;
+    }
+}

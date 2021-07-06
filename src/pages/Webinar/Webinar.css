@@ -1,0 +1,27 @@
+.webinar .box{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--true-gray-200);
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 4.5rem;
+    z-index: -1;
+}
+@media (min-width: 1000px){
+    .webinar .box{
+        width: 2rem;
+        height: 2rem;
+        top: 0.5rem;
+        left: 0.2rem;
+    }
+}
+@media (min-width: 1400px){
+    .webinar .box{
+        width: 4rem;
+        height: 4rem;
+        top: -1.75rem;
+        left: 12rem;
+    }
+}
