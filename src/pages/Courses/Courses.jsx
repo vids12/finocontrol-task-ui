@@ -7,7 +7,7 @@ export function Courses(){
         <div>
             <Navbar />
             <div className="courses">
-                <h1 className="course-heading">
+                <h1 className="title">
                     Related Courses
                     <div className="box"></div>
                 </h1>
