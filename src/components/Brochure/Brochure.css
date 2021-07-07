@@ -1,0 +1,16 @@
+.brochure{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: var(--white);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    max-width: 100%;
+    display: flex;
+    box-shadow: 6px 6px 14px 2px rgba(161,161,170,0.66);
+    cursor: pointer;
+}
+.brochure i{
+    margin-right: 0.75rem;
+    font-size: 1.75rem;
+}
