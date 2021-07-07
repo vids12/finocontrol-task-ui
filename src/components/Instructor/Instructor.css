@@ -1,0 +1,11 @@
+.instructor{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+    .instructor{
+        margin: 4rem;
+    }
+}
