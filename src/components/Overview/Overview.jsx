@@ -25,7 +25,7 @@ export function Overview() {
                     <li className="program-detail">Financial Modeling Certification</li>
                     <li className="program-detail">Applied Derivatives Certification</li>
                     <li className="program-detail">Applied Economics Certification</li>
-                    <li className="program-detail">Finance Essentials - Banking & Marketd Certification</li>
+                    <li className="program-detail">Finance Essentials - Banking &amp; Marketd Certification</li>
                 </ul>
                 <p className="program-detail">Each Mandatory Course will have: </p>
                 <ul className="program-list">
