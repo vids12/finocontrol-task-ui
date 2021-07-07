@@ -1,0 +1,54 @@
+.overview{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.landing-page-title{
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    position: relative;
+}
+.overview-box{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--true-gray-200);
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    position: absolute;
+    top: 0.4rem;
+    left: -0.5rem;
+    z-index: -1;
+}
+.program-heading{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.program-detail{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.program-list{
+    list-style: '-';
+}
+.program-list li{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+@media (min-width: 1000px) {
+    .overview{
+        margin: 4rem;
+    }
+    .program-heading{
+        font-size: 1.5rem;
+    }
+    .program-detail{
+        font-size: 1.1rem;
+    }
+    .program-list li{
+        margin-left: 0.75rem;
+    }
+}
