@@ -1,0 +1,40 @@
+@media (min-width: 1000px) {
+    .sidebox{
+        background-color: var(--teal-100);
+        border-radius: 1rem;
+        height: auto;
+        padding: 1.75rem;
+        margin-bottom: 3rem;
+    }
+    .sidebox h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+    .sidebox-list{
+        list-style: none;
+    }
+    .sidebox-list li{
+        display: flex;
+    }
+    .sidebox-list li i{
+        font-size: 1.75rem;
+        color: var(--teal-900);
+        margin: 0 1rem 1rem 0;
+    }
+    .sidebox-list li {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+}
+@media (min-width: 1400px) {
+    .sidebox{
+        padding: 2rem;
+    }
+    .sidebox h2{
+        font-size: 1.75rem;
+    }
+    .sidebox-list li i{
+        font-size: 2rem;
+    }
+}
