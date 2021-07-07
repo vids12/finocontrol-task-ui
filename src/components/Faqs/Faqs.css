@@ -1,0 +1,16 @@
+.faqs{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.faqs-accordion{
+    margin: 1rem auto;
+}
+@media (min-width: 1000px) {
+    .faqs{
+        margin: 4rem;
+    }
+    .faqs-accordion{
+        margin: 2rem auto;
+      }
+}
