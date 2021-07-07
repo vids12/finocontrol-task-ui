@@ -21,6 +21,8 @@
         margin: 4rem;
     }
     .outcomes-list{
-        display: flex;
+        column-count: 2;
+        column-gap: normal;
+        margin-top: 1rem;
     }
 }
