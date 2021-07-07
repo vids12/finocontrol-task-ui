@@ -1,0 +1,15 @@
+.requirements{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.requirements li{
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+@media (min-width: 1000px) {
+    .requirements{
+        margin: 4rem;
+    }
+}
