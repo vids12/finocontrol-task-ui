@@ -19,7 +19,7 @@
     font-size: 1.5rem;
     margin: 1rem;
 }
-.course-image{
+.parent{
     background-color: green;
     width: 80%;
     height: 12rem;
@@ -27,7 +27,15 @@
     border-bottom-right-radius: 3rem;
     position: relative;
     top: -2rem;
-    left: 2.25rem;
+    left: 2.65rem;
+}
+.course-image{
+    background-color: green;
+    width: 21rem;
+    height: 12rem;
+    object-fit: cover;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;  
 }
 .course-badge{
     position: absolute;
@@ -36,7 +44,7 @@
 }
 
 .inner-border{
-    border: 2px solid rgb(156, 143, 143);
+    border: 2px solid var(--white);
     height: 10.5rem;
     width: 90%;
     position: absolute;
@@ -62,9 +70,13 @@
     .heading{
         font-size: 1.75rem;
     }
+    .parent{
+        width: 15rem;
+        left: 2rem;
+    }
     .course-image{
-        width: 75%;
-        left: 2.5rem;
+        width: 15rem;
+        left: 1rem;
     }
     .inner-border{
         left: 0.6rem;
@@ -78,6 +90,10 @@
     }
     .course-image{
         left: 3.2rem;
+        width: 20rem;
+    }
+    .parent{
+        width: 20rem;
     }
     .inner-border{
         height: 10rem;
