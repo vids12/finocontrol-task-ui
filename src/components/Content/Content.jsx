@@ -2,7 +2,7 @@ import { contentData,ContentAccordion } from "..";
 
 export function Content() {
     return (
-        <div>
+        <div id="content">
             <h1 className="landing-page-title overview">
                 Course Content
                 <div className="overview-box"></div>

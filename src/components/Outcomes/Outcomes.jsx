@@ -2,7 +2,7 @@ import "./Outcomes.css";
 
 export function Outcomes() {
     return (
-        <div className="outcomes">
+        <div className="outcomes" id="outcomes">
             <h1 className="landing-page-title">
                 What Will You Learn
                 <div className="overview-box"></div>

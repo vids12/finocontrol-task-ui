@@ -3,7 +3,7 @@ import { TrainerDetail } from "..";
 
 export function Instructor() {
     return (
-        <div className="instructor">
+        <div className="instructor" id="instructor">
             <h1 className="landing-page-title">
                 About the Instructor
                 <div className="overview-box"></div>

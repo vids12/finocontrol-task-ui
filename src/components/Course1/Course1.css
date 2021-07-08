@@ -36,7 +36,7 @@
 }
 
 .inner-border{
-    border: 2px solid white;
+    border: 2px solid rgb(156, 143, 143);
     height: 10.5rem;
     width: 90%;
     position: absolute;
@@ -44,6 +44,7 @@
     bottom: 0.5rem; 
     border-top-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
+    z-index: 10;
 }
 
 .course-list li{

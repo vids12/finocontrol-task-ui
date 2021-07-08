@@ -2,7 +2,7 @@ import "./Benefits.css";
 
 export function Benefits() {
     return (
-        <div className="benefits">
+        <div className="benefits" id="benefits">
             <h1 className="landing-page-title">
                 Benefits
                 <div className="overview-box"></div>

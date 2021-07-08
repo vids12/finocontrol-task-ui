@@ -2,7 +2,7 @@ import "./Overview.css";
 
 export function Overview() {
     return (
-        <div className="overview">
+        <div className="overview" id="overview">
             <h1 className="landing-page-title">
                 Overview
                 <div className="overview-box"></div>

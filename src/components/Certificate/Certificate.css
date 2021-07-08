@@ -1,0 +1,22 @@
+
+@media (min-width: 1400px) {
+   .certificate{
+      background-color: #064E3B;
+      color: white;
+      border-top-right-radius: 4rem;
+      margin: 0 2rem;
+   }
+   .certificate h1{
+      font-weight: 400;
+      letter-spacing: 0.2rem;
+      font-size: 4rem;
+      padding: 5rem 0 2rem 3.5rem;
+   }
+   .certificate p{
+      font-size: 1.5rem;
+      padding-left: 3.5rem;
+   }
+   .certificate section{
+      padding-bottom: 5rem;
+   }
+}

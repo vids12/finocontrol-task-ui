@@ -2,7 +2,7 @@ import "./Requirements.css";
 
 export function Requirements() {
     return (
-        <div className="requirements">
+        <div className="requirements" id="requirements">
             <h1 className="landing-page-title">
                 Requirements
                 <div className="overview-box"></div>

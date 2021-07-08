@@ -3,7 +3,7 @@ import {Accordion,faqData } from "..";
 
 export function Faqs() {
     return (
-        <div className="faqs">
+        <div className="faqs" id="faqs">
             <h1 className="landing-page-title">
                 FAQs
                 <div className="overview-box"></div>
