@@ -1,6 +1,48 @@
-/* to style more */
-
 .certificate-design{
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
+    position: absolute;
+    top: -5rem;
+    right: 2rem;
+    height: 5rem;
+    width: 10rem;
+    border: 1px solid var(--blue-gray-400);
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.75rem;
+    font-size: 0.75rem;
+}
+@media (min-width: 1000px) {
+    .certificate-design{
+        background-color: var(--white);
+        color: var(--black);
+        position: absolute;
+        top: -6rem;
+        right: 1rem;
+        height: 5rem;
+        width: 10rem;
+        border: 1px solid var(--blue-gray-400);
+        border-radius: 1rem;
+        text-align: center;
+        margin: 2rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .certificate-design{
+        background-color: var(--white);
+        color: var(--black);
+        position: absolute;
+        top: -5rem;
+        right: 5rem;
+        height: 5rem;
+        width: 10rem;
+        border: 1px solid var(--blue-gray-400);
+        border-radius: 1rem;
+        text-align: center;
+        margin: 2rem;
+        padding: 3rem;
+    }
 }
