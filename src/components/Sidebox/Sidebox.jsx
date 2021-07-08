@@ -6,15 +6,15 @@ export function Sidebox() {
             <h2>This Course Includes</h2>
             <ul className="sidebox-list">
                 <li>
-                    <i class="fa fa-play-circle" aria-hidden="true"></i>
+                    <i className="fa fa-play-circle" aria-hidden="true"></i>
                     70 hours of videos | 10 Live sessions
                 </li>
                 <li>
-                    <i class="fa fa-hourglass" aria-hidden="true"></i>
+                    <i className="fa fa-hourglass" aria-hidden="true"></i>
                     About 150 hours of effort needed
                 </li>
                 <li>
-                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <i className="fa fa-file" aria-hidden="true"></i>
                     100+ articles, case studies
                 </li>
                 <li>
@@ -26,7 +26,7 @@ export function Sidebox() {
                     4 Live Projects
                 </li>
                 <li>
-                    <i class="fa fa-certificate" aria-hidden="true"></i>
+                    <i className="fa fa-certificate" aria-hidden="true"></i>
                     Certification Test at the end of each Course
                 </li>
                 <li>
