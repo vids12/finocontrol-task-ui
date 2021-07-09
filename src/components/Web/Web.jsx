@@ -25,7 +25,7 @@ export function Web() {
                     <h4 className="discounted-price">Rs.500</h4>
                     <h5 className="original-price">Rs.700</h5>
                 </div>
-                <button className="primary-btn">Reserve Spot Today<i className="fa fa-arrow-right" aria-hidden="true"></i></button>     
+                <button className="primary-btn reserve-btn">Reserve Spot Today<i className="fa fa-arrow-right" aria-hidden="true"></i></button>     
             </div>
         </div>
     );
