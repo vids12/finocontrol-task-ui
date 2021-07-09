@@ -3,18 +3,20 @@ import { useState } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { Dropbox } from "..";
 import "./Navbar.css";
+import { changeDocTitle } from "../../utils/changeDocTitle";
 
 export function Navbar() {
     const [showDropbox, setShowDropbox] = useState(false);
     const [showAngle, setAngle] = useState(false);
-    const [toggle, setToggle] = useState(false); 
+    const [toggle, setToggle] = useState(false);
 
     function angleHandler(){
         setShowDropbox(!showDropbox);
         setAngle(!showAngle);
     }
-    function handleClick(){
-        setToggle(!toggle);
+    function handleClick(data){
+      changeDocTitle(data);
+      setToggle(!toggle);
     }
 
     return (
@@ -28,7 +30,7 @@ export function Navbar() {
                 to="/"
                 activeClassName="selected"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={()=>handleClick("Home")}
               >
                 HOME
               </NavLink>
@@ -38,7 +40,7 @@ export function Navbar() {
                 to="/courses"
                 activeClassName="selected"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={()=>handleClick("Courses")}
               >
                 COURSES
               </NavLink>
@@ -48,7 +50,7 @@ export function Navbar() {
                 to="/webinars"
                 activeClassName="selected"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={()=>handleClick("Webinars")}
               >
                 WEBINARS
               </NavLink>
@@ -63,7 +65,7 @@ export function Navbar() {
                 to="/blogs"
                 activeClassName="selected"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={()=>handleClick("Blogs")}
               >
                 BLOGS
               </NavLink>
