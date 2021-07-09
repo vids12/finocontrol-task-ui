@@ -1,8 +1,3 @@
-.outcomes{
-    margin: 1.5rem;
-    display: flex;
-    flex-direction: column;
-}
 .outcomes-list{
     list-style: '#';
 }
@@ -17,9 +12,6 @@
     font-size: 1.25rem;
 }
 @media (min-width: 1000px) {
-    .outcomes{
-        margin: 4rem;
-    }
     .outcomes-list{
         column-count: 2;
         column-gap: normal;

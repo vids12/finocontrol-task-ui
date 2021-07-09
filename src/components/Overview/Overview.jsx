@@ -2,10 +2,10 @@ import "./Overview.css";
 
 export function Overview() {
     return (
-        <div className="overview" id="overview">
+        <div className="primary-section-component" id="overview">
             <h1 className="landing-page-title">
                 Overview
-                <div className="overview-box"></div>
+                <div className="box"></div>
             </h1>
             <h4 className="program-heading">Program Duration: 15th Jan 2021 - 31st May 2021</h4>
             <p className="program-detail">Register Now!!!</p>

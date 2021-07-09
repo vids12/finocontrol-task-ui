@@ -1,4 +1,4 @@
-.overview{
+.primary-section-component{
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     font-size: 3rem;
     position: relative;
 }
-.overview-box{
+.box{
     width: 2rem;
     height: 2rem;
     background-color: var(--true-gray-200);
@@ -39,7 +39,7 @@
     padding: 0.5rem;
 }
 @media (min-width: 1000px) {
-    .overview{
+    .primary-section-component{
         margin: 4rem;
     }
     .program-heading{

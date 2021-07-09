@@ -2,10 +2,10 @@ import "./Outcomes.css";
 
 export function Outcomes() {
     return (
-        <div className="outcomes" id="outcomes">
+        <div className="outcomes primary-section-component" id="outcomes">
             <h1 className="landing-page-title">
                 What Will You Learn
-                <div className="overview-box"></div>
+                <div className="box"></div>
             </h1>
             <ul className="outcomes-list">
                 <li>

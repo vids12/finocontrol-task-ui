@@ -2,10 +2,10 @@ import "./Benefits.css";
 
 export function Benefits() {
     return (
-        <div className="benefits" id="benefits">
+        <div className="primary-section-component benefits" id="benefits">
             <h1 className="landing-page-title">
                 Benefits
-                <div className="overview-box"></div>
+                <div className="box"></div>
             </h1>
             <ol>
                 <li>

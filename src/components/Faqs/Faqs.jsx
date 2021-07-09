@@ -3,10 +3,10 @@ import {Accordion,faqData } from "..";
 
 export function Faqs() {
     return (
-        <div className="faqs" id="faqs">
+        <div className="faqs primary-section-component" id="faqs">
             <h1 className="landing-page-title">
                 FAQs
-                <div className="overview-box"></div>
+                <div className="box"></div>
             </h1>
             <div className="faqs-accordion">
                 {
