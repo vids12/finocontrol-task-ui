@@ -1,0 +1,36 @@
+.accordion-title{
+  padding: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: var(--white);
+  border-bottom: 2px solid var(--blue-gray-400);
+}
+.accordion-title:hover {
+  background-color: var(--emerald-500);
+  color: var(--white);
+}
+.accordion-title:hover > .sign{
+  background-color: var(--emerald-500);
+  color: var(--white);
+}
+.accordion-content {
+  background-color: var(--cool-gray-200);
+  padding: 0.75rem;
+}
+.sign{
+  color: var(--primary-color);
+  font-size: 1.5rem; 
+  margin: auto 1rem;
+}
+
+
+@media (min-width: 1000px) {
+  .accordion-title{
+    padding: 1rem;
+  }    
+  .accordion-content {
+    padding: 1.5rem;
+  }
+}

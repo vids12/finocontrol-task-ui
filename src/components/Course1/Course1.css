@@ -1,0 +1,100 @@
+.course1,.course2,.course3{
+    background-color: white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    position: relative;
+    border: 1px solid #9CA3AF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.value{
+    color: #059669;
+    font-weight: 600;
+    font-size:1.25rem;
+    margin-bottom: 1.5rem;
+}
+.heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.course-image{
+    background-color: green;
+    width: 80%;
+    height: 12rem;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    position: relative;
+    top: -2rem;
+    left: 2rem;
+}
+.image-1{
+    background-image: url("https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdyYXBofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+    background-position: center;
+}
+.image-2{
+    background-image: url("https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFncmVlbWVudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+}
+.image-3{
+    background-image: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+}
+.course-badge{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.5rem
+}
+
+.inner-border{
+    border: 2px solid var(--white);
+    height: 10.5rem;
+    width: 90%;
+    position: absolute;
+    left: 0.75rem;
+    bottom: 0.5rem; 
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    z-index: 10;
+}
+
+.course-list li{
+    font-size: 1.5rem;
+    margin: 1rem 2.5rem 0.5rem 2.5rem;
+    padding: 1rem;
+}
+@media (min-width: 1000px) {
+    .course1,.course2,.course3{
+        width: 30%;
+    }
+    .value{
+        font-size:1.25rem;
+    }
+    .heading{
+        font-size: 1.75rem;
+    }
+    .course-image{
+        left: 1.5rem;
+    }
+    .inner-border{
+        left: 0.6rem;
+        bottom: 0.6rem; 
+    }
+}
+
+@media (min-width: 1400px) {
+    .heading{
+        font-size: 2rem;
+    }
+    .course-image{
+        left: 3.2rem;
+    }
+    .inner-border{
+        height: 10rem;
+        width: 90%;
+        left: 0.8rem;
+        bottom: 0.8rem; 
+    }
+}

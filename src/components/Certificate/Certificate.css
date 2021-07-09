@@ -1,0 +1,52 @@
+.certificate-main-div{
+   margin-top: 6rem;
+   position: relative;
+}
+.certificate{
+   background-color: var(--emerald-900);
+   color: var(--white);
+   border-top-right-radius: 1.75rem;
+   margin: 0 1rem;
+}
+.certificate h1{
+   font-weight: 400;
+   letter-spacing: 0.2rem;
+   font-size: 3rem;
+   padding: 3rem 0 2rem 0.5rem;
+}
+.certificate section{
+   padding-bottom: 5rem;
+}
+.certificate-content{
+   padding-right: 1rem;
+   font-size: 1rem;
+   padding-left: 2rem;
+}
+@media (min-width: 1000px) {
+   .certificate{
+      border-top-right-radius: 2rem;
+   }
+   .certificate h1{
+      font-size: 4rem;
+      padding: 2.5rem 0 2rem 3.5rem;
+   }
+   .certificate-content{
+      padding-right: 6rem;
+   }
+}
+@media (min-width: 1400px) {
+   .certificate-main-div{
+      margin-top: 4rem;
+   }
+   .certificate{
+      border-top-right-radius: 3rem;
+      margin: 0 2rem;
+   }
+   .certificate h1{
+      padding: 5rem 0 2rem 3.5rem;
+   }
+   .certificate-content{
+      padding-right: 12rem;
+      padding-left: 3.5rem;
+   }
+}

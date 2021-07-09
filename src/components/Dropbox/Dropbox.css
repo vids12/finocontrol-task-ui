@@ -1,0 +1,28 @@
+.dropbox{
+    position: absolute;
+    top: 3.5rem;
+    right: 20rem;
+    background-color: var(--primary-color);
+    min-width: 10rem;
+    padding: 0.75rem 1rem;
+    z-index: 1;
+}
+.dropbox a{
+    color: var(--white);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+@media screen and (max-width: 960px) {
+    .dropbox{
+        position: static;
+        background-color: var(--primary-color);
+        width: 100%;
+        padding: 1rem 1rem;
+        z-index: 1;
+    }
+    .dropbox a{
+        color: var(--white);
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+}

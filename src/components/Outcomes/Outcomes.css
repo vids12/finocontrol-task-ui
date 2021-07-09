@@ -1,0 +1,20 @@
+.outcomes-list{
+    list-style: '#';
+}
+.outcomes-list li::marker{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.outcomes-list li{
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+@media (min-width: 1000px) {
+    .outcomes-list{
+        column-count: 2;
+        column-gap: normal;
+        margin-top: 1rem;
+    }
+}

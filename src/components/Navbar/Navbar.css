@@ -1,0 +1,132 @@
+.logo {
+    height: 3rem;
+    margin: 1rem 2rem;
+    cursor: pointer;
+}
+.navbar i{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0.2rem;
+    cursor: pointer;
+}
+.navbar{
+    background-color: var(--white);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem; 
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    max-width: 100%;
+}
+.nav{
+    display: flex;
+    margin-right: 2rem;
+    align-items: baseline;
+    list-style: none;
+    height: auto;
+}
+.nav-links {
+    color: var(--black);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+}
+.nav-item {
+    line-height: 4rem;
+    margin-right: 1rem;
+}
+.nav-icon {
+    display: none;
+}
+.login-register-btn{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    border-top-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.nav-item .selected{
+    font-weight: 800;
+    color: var(--primary-color);
+} 
+  
+  @media screen and (max-width: 960px) {
+    .login-register-btn{
+        color: var(--amber-200);
+        background-color: var(--emerald-500);
+        cursor: pointer;
+        border: none;
+        padding: 1.5rem;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1px solid var(--white);
+        position: absolute;
+        top: 5rem;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    
+    .nav.active {
+        background: var(--emerald-500);
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+      }
+    .nav-links{
+        color: var(--amber-200);
+        text-decoration: none;
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+        cursor: pointer;
+    }
+    .fa-angle-up,
+    .fa-angle-down{
+        color: var(--amber-200);
+        font-size: 1.5rem;
+        margin: 0.2rem;
+        cursor: pointer;
+    }
+    .nav-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: var(--primary-color);
+    }
+    .nav-item .selected{
+        font-weight: 800;
+        color: var(--orange-500)
+    }
+    .navbar{
+        background-color: var(--white);
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.2rem; 
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        max-width: 100%;
+    }  
+    .logo {
+        height: 3rem;
+        margin: 1rem 0 auto 0.5rem;
+        cursor: pointer;
+    }
+  }
