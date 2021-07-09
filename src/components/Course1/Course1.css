@@ -19,7 +19,7 @@
     font-size: 1.5rem;
     margin: 1rem;
 }
-.parent{
+.course-image{
     background-color: green;
     width: 80%;
     height: 12rem;
@@ -27,15 +27,20 @@
     border-bottom-right-radius: 3rem;
     position: relative;
     top: -2rem;
-    left: 2.65rem;
+    left: 2rem;
 }
-.course-image{
-    background-color: green;
-    width: 21rem;
-    height: 12rem;
-    object-fit: cover;
-    border-top-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;  
+.image-1{
+    background-image: url("https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdyYXBofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+    background-position: center;
+}
+.image-2{
+    background-image: url("https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFncmVlbWVudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+}
+.image-3{
+    background-image: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
 }
 .course-badge{
     position: absolute;
@@ -70,13 +75,8 @@
     .heading{
         font-size: 1.75rem;
     }
-    .parent{
-        width: 15rem;
-        left: 2rem;
-    }
     .course-image{
-        width: 15rem;
-        left: 1rem;
+        left: 1.5rem;
     }
     .inner-border{
         left: 0.6rem;
@@ -90,10 +90,6 @@
     }
     .course-image{
         left: 3.2rem;
-        width: 20rem;
-    }
-    .parent{
-        width: 20rem;
     }
     .inner-border{
         height: 10rem;

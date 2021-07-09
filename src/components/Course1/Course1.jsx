@@ -4,8 +4,7 @@ import "./Course1.css";
 export function Course1() {
     return (
         <div className="course1">
-            <div className="parent">
-                <img src="https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdyYXBofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="course-pic-1" className="course-image" />
+            <div className="course-image image-1">
                 <div className="inner-border"></div>
                 <div className="course-badge"><Badge text="Bestseller" /></div>
             </div>

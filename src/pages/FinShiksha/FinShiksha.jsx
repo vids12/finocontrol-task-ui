@@ -1,8 +1,10 @@
+import { Navbar } from "../../components";
 import "./FinShiksha.css";
 export function FinShiksha() {
     return (
         <div>
-            Coming soon            
+            <Navbar />
+            Coming soon           
         </div>
     )
 }
