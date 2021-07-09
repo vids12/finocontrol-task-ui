@@ -16,6 +16,9 @@
     margin: 4rem 4rem;
     position: relative;
     top: 2rem;
+    background-image: url("https://th.bing.com/th/id/OIP.h4NqldLcNSKXVA-YUV_MUwHaEK?w=320&h=180&c=7&o=5&pid=1.7");
+    background-position: center;
+    background-size: cover;
 }
 .web-image-inner-border{
     border: 2px solid var(--white);
@@ -153,7 +156,7 @@
     .web-image-inner-border{
         height: 9rem; 
         width: 8.5rem;
-        left:0.4rem;
+        left:0.5rem;
         bottom: 0.5rem;
     }
     .webinar-heading{
